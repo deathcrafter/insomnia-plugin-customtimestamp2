@@ -1,5 +1,13 @@
 const moment = require('moment');
 
+function getDate(days, months, years, format){
+    let m = moment();
+    m.add(days, 'days');
+    m.add(months, 'months');
+    m.add(years, 'years');
+    return m.format(format);
+}
+
 module.exports.templateTags = [{
     name: 'DateAdd',
     displayName: 'DateAdd',
@@ -31,10 +39,10 @@ module.exports.templateTags = [{
         }
     ],
     async run (context, days, months, years, format) {
-        let m = moment();
-        m.add(days, 'days');
-        m.add(months, 'months');
-        m.add(years, 'years');
-        return m.format(format);
+        return getDate(days, months, years, format);
+    },
+    liveDisplayName (context) {
+        let values = context.map(c => c.value);
+        return "DateAdd (" + getDate(...values) + ")";
     }
 }];
