@@ -7,6 +7,12 @@
         "type": "git",
         "url": "https://github.com/SebBrookfield/DateAdd"
     },
+    "keywords": [
+        "insomnia",
+        "date",
+        "template",
+        "tag"
+    ],
     "homepage": "https://insomnia.rest/plugins/insomnia-plugin-date-add",
     "description": "Allows you to use a date as a template tag and allows basic addition.",
     "insomnia": {
