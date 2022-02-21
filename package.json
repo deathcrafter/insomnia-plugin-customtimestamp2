@@ -1,0 +1,25 @@
+{
+    "name": "insomnia-plugin-date-add",
+    "version": "1.0.0",
+    "main": "date-add.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SebBrookfield/DateAdd"
+    },
+    "homepage": "https://insomnia.rest/plugins/insomnia-plugin-date-add",
+    "description": "Allows you to use a date as a template tag and allows basic addition.",
+    "insomnia": {
+        "name": "Date Add",
+        "displayName": "Date Add",
+        "description": "Allows you to use a date as a template tag and allows basic addition.",
+        "publisher": {
+            "name": "Sebastian Brookfield"
+        },
+        "unlisted": false
+    },
+    "dependencies": {
+        "moment": "^2.29.1"
+    },
+    "devDependencies": {}
+}
