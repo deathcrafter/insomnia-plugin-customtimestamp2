@@ -3,6 +3,8 @@
 Date Add is an Insomnia plugin that allows you to take the current date, add days/months/years, and output in a specific format.
 This plugin uses the [momentjs](https://momentjs.com/) library for manipulating the dates.
 
+![image](https://user-images.githubusercontent.com/6395728/154962814-7f60b63f-4538-4099-9ae3-2627922a2079.png)
+
 ### Parameters ###
 The parameters are pretty self explanatory.
 ##### Days to add
