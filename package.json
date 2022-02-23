@@ -1,6 +1,6 @@
 {
     "name": "insomnia-plugin-date-add",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "date-add.js",
     "license": "MIT",
     "repository": {
