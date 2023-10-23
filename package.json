@@ -1,31 +1,33 @@
 {
-    "name": "insomnia-plugin-date-add",
+    "name": "insomnia-plugin-customtimestamp2",
     "version": "1.0.1",
-    "main": "date-add.js",
+    "main": "index.js",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SebBrookfield/DateAdd"
+        "url": "https://github.com/deathcrafter/insomnia-plugin-customtimestamp2"
     },
     "keywords": [
         "insomnia",
         "date",
+        "time",
+        "datetime",
         "template",
         "tag"
     ],
     "homepage": "https://insomnia.rest/plugins/insomnia-plugin-date-add",
     "description": "Allows you to use a date as a template tag and allows basic addition.",
     "insomnia": {
-        "name": "Date Add",
-        "displayName": "Date Add",
+        "name": "Custom Timestamp 2",
+        "displayName": "CustomTimestamp",
         "description": "Allows you to use a date as a template tag and allows basic addition.",
         "publisher": {
-            "name": "Sebastian Brookfield"
+            "name": "Sebastian Brookfield/deathcrafter"
         },
         "unlisted": false
     },
     "dependencies": {
-        "moment": "^2.29.1"
+        "moment": "^2.29.4"
     },
     "devDependencies": {}
 }
