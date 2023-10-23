@@ -15,7 +15,7 @@
         "template",
         "tag"
     ],
-    "homepage": "https://insomnia.rest/plugins/insomnia-plugin-date-add",
+    "homepage": "https://insomnia.rest/plugins/insomnia-plugin-customtimestamp2",
     "description": "Allows you to use a date as a template tag and allows basic addition.",
     "insomnia": {
         "name": "Custom Timestamp 2",
